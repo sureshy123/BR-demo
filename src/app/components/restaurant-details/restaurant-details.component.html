@@ -1,0 +1,22 @@
+<div class="details">
+    <div #gmap style="height:180px"></div>
+    <div class="restaurant-details">
+        <div class="name-header pl-12">
+            <div class="name">{{details.name}}</div>
+            <div class="category">{{details.category}}</div>
+          </div>
+          <div class="address pl-12 mt-16">
+            <div>{{details.location.formattedAddress[0]}}</div>
+            <div>{{details.location.formattedAddress[1]}}</div>
+          </div>
+      
+          <div class="pl-12 mt-26">{{details.contact.formattedPhone}}</div>
+          <div class="twitter pl-12 mt-26">@{{details.contact.twitter}}</div>
+    </div>
+
+</div>
+
+<!-- <div class="wrapper">
+    <img id="slide" src="http://lorempixel.com/output/cats-q-c-100-100-4.jpg" />
+</div> -->
+

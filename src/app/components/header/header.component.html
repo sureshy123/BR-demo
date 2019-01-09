@@ -1,0 +1,19 @@
+<div class="header" >
+  <div class="row" *ngIf="data.currentRoute == 'lunch'">
+      <div class="col-3 inline back-arrow">
+          <img  src="./assets/cuts/ic_webBack@2x.png" *ngIf="data.isDetails" (click)="goBack()">
+      </div>
+      <div class="col-6 inline header-text">
+          <span >Lunch Tyme</span>
+      </div>
+      
+      <div class="col-3 inline map-img"><img  src="./assets/cuts/icon_map@2x.png"></div>
+  </div>
+  <div  *ngIf="data.currentRoute == 'internets'">
+    <img src="./assets/cuts/ic_webBack@2x.png" alt="back">
+    <img src="./assets/cuts/ic_webRefresh@2x.png" alt="refresh">
+    <img src="./assets/cuts/ic_webForward@2x.png" alt="fwd">
+  </div>
+  
+  
+</div>
